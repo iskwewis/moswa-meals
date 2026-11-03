@@ -4,6 +4,8 @@
     display: flex;
     background-color: darkred;
     color: white;
+    align-items: center;
+    padding: 1rem 0;
 }
 @media (max-width:768px) {
     .side-box {
@@ -35,6 +37,26 @@
     }
 }
 
+.why-moswa {
+    width: 90%;
+    height: 400px;
+}
+
+@media (max-width: 768px) {
+    .why-moswa {
+        height: 300px;
+        width: 70%;
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .why-moswa {
+        height: 200px;
+        width: 80%;
+    }
+}
+
 /* FEATURED RECIPES */
 .recipe-cards {
     display: flex;
@@ -48,16 +70,16 @@
 }
 
 .featured-card {
-    margin: 1%;
-    padding: 3%;
+    margin: .5rem;
+    padding: 2rem;
     background-color: darkred;
     color: white;
-    border-radius: 10px;
+    border-radius: 20px;
     object-fit: cover;
     flex: 1 1 0;
 }
 .featured-card img {
-    height: 400px;
+    height: 200px;
     width: 80%;
     padding: 1rem;
 }
@@ -78,11 +100,11 @@
 /* BUTTON */
 button {
     background-color: rgb(164, 1, 1);
-    border: 2px solid rgb(163, 140, 110);
-    font-size: 1.8rem;
+    border: 1px solid rgb(163, 140, 110);
+    font-size: 1.5rem;
     display: block;
     margin: auto;
-    padding: 1.5%;
+    padding: .8rem;
     margin-top: 2%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 800;
@@ -91,17 +113,14 @@ button {
 
 @media (max-width: 768px) {
     button {
-        font-size: 1.5rem;
-        padding: 2%;
-        border-radius: 20px;
+        font-size: 1.3rem;
     }
 }
 
 @media (max-width: 480px) {
     button {
         font-size: 1rem;
-        padding: 3%;
-        border-radius: 15px;
+        padding: .6rem;
     }
 }
 
@@ -112,7 +131,7 @@ button a {
 
 button:hover {
     background-color: rgb(182, 156, 122);
-    border: 2px solid white;
+    border: 1px solid white;
 }
 
 .m1 button {

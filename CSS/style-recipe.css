@@ -8,8 +8,8 @@
     "m1 m1 m3"
     "m4 m5 m6"
     "m7 m2 m9";
-    margin: 2%;
-    padding: 1.5rem;
+    margin: 1rem;
+    padding: 2rem;
     gap: 1.5rem;
     height: auto;
 }
@@ -36,7 +36,7 @@
 }
 
 .m1, .m2, .m3, .m4, .m5, .m6, .m7, .m8, .m9 {
-    border: 4px rgb(145, 124, 96) solid;
+    border: 2px rgb(68, 0, 0) solid;
     border-radius: 15px;
     background-color: rgb(105, 0, 0);
     width: 100%;
@@ -44,24 +44,28 @@
     object-fit: cover;
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    padding: 1.5rem;
+}
+
+.m2, .m3, .m4, .m5, .m6, .m7, .m8, .m9 {
+    font-size: 1rem;
 }
 
 .m1 img {
     width: 80%;
-    height: 500px;
+    height: 400px;
 }
 
 @media (max-width: 480px) {
     .m1 img {
-    width: 80%;
-    height: 220px;
-}
+        width: 80%;
+        height: 220px;
+    }
 }
 
 .m2 img, .m3 img, .m4 img, .m5 img, .m6 img, .m7 img, .m8 img, .m9 img {
     width: 80%;
-    height: 220px;
+    height: 150px;
 }
 
 .m1 {    
@@ -92,27 +96,23 @@
     grid-area: m9;
 }
 
-/* article {
-    height: auto;
-} */
-
 /* BUTTON */
 button {
     background-color: rgb(164, 1, 1);
-    border: 2px solid rgb(163, 140, 110);
-    font-size: 1.3rem;
+    border: 1px solid rgb(163, 140, 110);
+    font-size: 1.2rem;
     display: block;
     margin: auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 800;
-    border-radius: 15px;
+    border-radius: 20px;
     text-decoration: none;
     color: white;
-    width: 120px;
-    height: 45px;
+    width: 100px;
+    height: 35px;
     text-align: center;
     letter-spacing: 1px;
-    margin-bottom: 10px;
+    margin-bottom: 4px;
 }
 
 @media (max-width: 480px) {
@@ -126,7 +126,7 @@ button {
 
 button:hover {
     background-color: rgb(182, 156, 122);
-    border: 2px solid white;
+    border: 1px solid white;
 }
 
 button a {
@@ -134,7 +134,7 @@ button a {
 }
 
 .m1 p {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     line-height: 2rem;
     width: 95%;
     margin: auto;
@@ -144,4 +144,9 @@ button a {
     .m1 p {
         font-size: 1rem;
     }
+}
+
+.container h3 {
+    font-size: 1.5rem;
+    padding: 1rem;
 }
